@@ -25,6 +25,8 @@ import java.util.List;
 
 public class FindUserActivity extends AppCompatActivity {
     TextView test;
+
+    static final int ADD_DEVICE = 123;
     //Date
     Calendar c = Calendar.getInstance();
     SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
@@ -66,7 +68,15 @@ public class FindUserActivity extends AppCompatActivity {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         //selectedUser = list_users.get(position));
-                        Intent i = new Intent(FindUserActivity.this,ResultActivity.class);
+
+                        Intent j = new Intent(FindUserActivity.this,AddSensorActivity.class);
+
+
+                        startActivityForResult(j, ADD_DEVICE);
+
+
+
+                        //Intent i = new Intent(FindUserActivity.this,ResultActivity.class);
                         //TODO Start timer
                         //TODO Add the date + to DB
 
@@ -77,8 +87,8 @@ public class FindUserActivity extends AppCompatActivity {
                         //            -->
                        // mFirebaseReference.child(list_users.get(position).getUid()).child("sessions").child(formattedDate).child("heartbeats").setValue(null);
 
-                        i.putExtra("user", list_users.get(position));
-                        startActivity(i);
+                        //i.putExtra("user", list_users.get(position));
+                        //startActivity(i);
                     }
                 });
 

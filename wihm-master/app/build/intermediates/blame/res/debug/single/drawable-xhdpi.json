@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_add.png",
+        "source": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/src/main/res/drawable-xhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_delete.png",
+        "source": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/src/main/res/drawable-xhdpi/ic_delete.png"
+    },
+    {
         "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_save.png",
         "source": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/res/drawable-xhdpi/ic_save.png"
     },
@@ -10,5 +18,9 @@
     {
         "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_add.png",
         "source": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/res/drawable-xhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_save.png",
+        "source": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/src/main/res/drawable-xhdpi/ic_save.png"
     }
 ]

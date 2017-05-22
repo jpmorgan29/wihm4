@@ -1,5 +1,6 @@
 package com.example.jpmorgan.wihm_223;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothClass;
@@ -16,6 +17,7 @@ import android.content.IntentFilter;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +36,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-public class AddSensorActivity extends AppCompatActivity {
+public class AddSensorActivity extends Activity {
 
     //private static final int REQUEST_ENABLE_BT = 10;
     ListView listBTdevices;
@@ -64,14 +66,18 @@ public class AddSensorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+        //this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_add_sensor);
 
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int width = dm.widthPixels;
+            int height = dm.heightPixels;
+        getWindow().setLayout((int) (width * .8), (int) (height * .6));
+
+
         mHandler = new Handler();
-
-
-
         listBTdevices = (ListView) findViewById(R.id.listBTDevices);
         deviceNames = new ArrayList<>();
         deviceAddresses = new ArrayList<>();

@@ -22,5 +22,29 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 226,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/Users/jpmorgan/.android/build-cache/bcf3cadf166afdda94edf241550c69cfe68bb22e/output/res/values-te/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 226,
+                        "endOffset": 565
+                    }
+                }
+            }
+        ]
     }
 ]

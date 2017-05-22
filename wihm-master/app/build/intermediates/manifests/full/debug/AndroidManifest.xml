@@ -55,7 +55,10 @@
             android:name="com.example.jpmorgan.wihm_223.BluetoothLeService"
             android:enabled="true" />
 
-        <activity android:name="com.example.jpmorgan.wihm_223.AddSensorActivity" />
+        <activity
+            android:name="com.example.jpmorgan.wihm_223.AddSensorActivity"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
