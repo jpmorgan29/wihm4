@@ -96,6 +96,7 @@ public class Sensor {  //implements Parcelable {
                     //TODO: code om heart rate data te displayen
                     Log.d("In ActionDataAvailable", "");
                     heartB = intent.getStringExtra(BluetoothLeService.EXTRA_DATA);
+                    Log.d("heartbeat", heartB);
                 }
             }
         };

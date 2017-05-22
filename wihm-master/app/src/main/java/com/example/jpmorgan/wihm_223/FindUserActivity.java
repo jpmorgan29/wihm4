@@ -1,5 +1,6 @@
 package com.example.jpmorgan.wihm_223;
 
+import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -36,6 +38,7 @@ public class FindUserActivity extends AppCompatActivity {
     private FirebaseDatabase mFirebaseDatabase;
     DatabaseReference ref;
     private DatabaseReference mFirebaseReference;
+    private int selectedPosition = 0;
 
     private List<User> allUsers = new ArrayList<>();
     @Override
@@ -48,8 +51,34 @@ public class FindUserActivity extends AppCompatActivity {
         addEventFireBaseListener(allUsers);
         test = (TextView) findViewById(R.id.tv_selectedUsers);
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // Check which request we're responding to
+        if (requestCode == ADD_DEVICE) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+
+                String newSenName = data.getStringExtra("name");
+                String newSenAddress = data.getStringExtra("address");
+                BluetoothDevice btDev = data.getParcelableExtra("btDev");
+
+                Toast.makeText(getApplicationContext(), newSenName + newSenAddress, Toast.LENGTH_SHORT).show();
+
+                //send data to resultActivity
+                final Intent intent = new Intent(FindUserActivity.this, ResultActivity.class);
+                intent.putExtra("name", newSenName);
+                intent.putExtra("address", newSenAddress);
+                intent.putExtra("btDev", btDev);
+                intent.putExtra("user", allUsers.get(selectedPosition));
+
+                startActivity(intent);
+            }
+        }
+    }
+
     public void addEventFireBaseListener(final List<User> list_users) {
-      ref.addValueEventListener(new ValueEventListener() {
+        ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if(list_users.size() > 0){
@@ -69,6 +98,7 @@ public class FindUserActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         //selectedUser = list_users.get(position));
 
+                        selectedPosition = position;
                         Intent j = new Intent(FindUserActivity.this,AddSensorActivity.class);
 
 
@@ -81,7 +111,7 @@ public class FindUserActivity extends AppCompatActivity {
                         //TODO Add the date + to DB
 
                         //ref.child(list_users.get(position).getUid()).child("date").setValue(formattedDate);
-                        ref.child(list_users.get(position).getUid()).child(formattedDate).child("heartbeatdata").setValue(1);
+                        ref.child(list_users.get(position).getUid()).child(formattedDate);//.child("heartbeatdata").setValue(1);
                         //Field: DATE --> HEARTBEATS
                         //            --> TIME
                         //            -->

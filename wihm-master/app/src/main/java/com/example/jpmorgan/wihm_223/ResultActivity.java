@@ -1,5 +1,6 @@
 package com.example.jpmorgan.wihm_223;
 
+import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Handler;
@@ -29,6 +30,10 @@ public class ResultActivity extends AppCompatActivity {
     private DatabaseReference mFirebaseReference;
     private TextView allUsers;
     private TextView selectedUser;
+    Sensor heartSen;
+    String newSenName;
+    String newSenAddress;
+    BluetoothDevice btDev;
 
     //Date
     Calendar c = Calendar.getInstance();
@@ -77,6 +82,10 @@ public class ResultActivity extends AppCompatActivity {
 
         txtAverage = (TextView) findViewById(R.id.txtAvg);
         user = (User) getIntent().getSerializableExtra("user");
+        newSenName = getIntent().getStringExtra("name");
+        newSenAddress = getIntent().getStringExtra("address");
+        btDev = getIntent().getParcelableExtra("btDev");
+        heartSen = new Sensor(btDev, this);
         System.out.println(user.getName());
         // TODO Vul de UI in met gegevens gebruiker
         selectedUser = (TextView) findViewById(R.id.tv_selecteduser);
