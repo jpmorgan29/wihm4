@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtName"
+        android:text="User name"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:text="Age"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/txtWeight"
+        android:text="Weight (in kg)"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/txtLength"
+        android:text="Length (in cm)"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:id="@+id/btnPair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pair to device" />
+
+</LinearLayout>

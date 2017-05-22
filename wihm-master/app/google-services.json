@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "491020830174",
+    "firebase_url": "https://wihm-d18c7.firebaseio.com",
+    "project_id": "wihm-d18c7",
+    "storage_bucket": "wihm-d18c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491020830174:android:3c83418c46c3196d",
+        "android_client_info": {
+          "package_name": "com.example.jpmorgan.wihm_223"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491020830174-iin0kl51us9alkg1c10fus8qigd5kuhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jpmorgan.wihm_223",
+            "certificate_hash": "64e412be05fc8a90c67ea249f1b843b05be76b92"
+          }
+        },
+        {
+          "client_id": "491020830174-j9bufh6f9kv0lb43aglnbde9uk7rvmiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIGsWki-6mpi0NDAMLwCt7sU5QTiwY87k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491020830174-j9bufh6f9kv0lb43aglnbde9uk7rvmiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
