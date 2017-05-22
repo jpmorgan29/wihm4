@@ -1,5 +1,7 @@
 package com.example.jpmorgan.wihm_223;
 
+import android.content.Context;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,33 +17,33 @@ import java.util.List;
 public class User implements Serializable {
 
         private String uid, name, age, weight, length;
+        private Context context;
+        private String ip;
         private Date date;
 
-        private List<HeartBeatSessions> sessions;
-        class HeartBeatSessions {
-            Date date;
-            List<Double> heartrates;
-         }
+
 
     public User(){
         }
 
-        public User(String uid, String name, String age, String weight, String length, List<HeartBeatSessions> sessions) {
+        public User(String uid, String name, String age, String weight, String length, Date date) {
             this.uid = uid; //Primaire key
             this.name = name;
             this.age = age;
             this.weight = weight;
             this.length = length;
-            this.sessions = sessions;
+            this.date = date;
+
+
             // this.heartrates = heartrates;
 
         }
-
-       // public Object getHeartrates(){ return heartrates; }
-       // public Object setHeartrates(Object heartrates){ this.heartrates = heartrates})
-        public String getUid() {
-            return uid;
+        //Connect
+        public void Connect(Context context, String ip){
+            this.context = context;
+            this.ip = ip;
         }
+        public String getUid() {return uid;}
 
         public void setUid(String uid) {
             this.uid = uid;
@@ -81,6 +83,6 @@ public class User implements Serializable {
 
         public void setDate(Date date) { this.date = date; }
         public Date getDate() { return date; }
-        public void setSessions(List<HeartBeatSessions> sessions) {this.sessions = sessions;}
-        public List<HeartBeatSessions> getSessions() {return sessions; }
+
+
 }

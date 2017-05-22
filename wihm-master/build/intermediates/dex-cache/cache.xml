@@ -11,13 +11,40 @@
         <dex dex="/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_274f930f4ea26a8ad6fc737e264dd56f11581479/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/jpmorgan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="112366d8158749e25532ebce162232c6e0fb20a5">
+        <dex dex="/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/pre-dexed/debug/gson-1.7.2_3c2e40737bc3d62dbed35cfbdcb9b653b54eb9de.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8f5d3554584f3fa1bf95f86836ec1c724845eb7f">
+        sha1="3a4a34aaa372a74c0d918bd4a9e27ee234e10597">
         <dex dex="/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c95ff668dbd17578ac7020df787b7f926a066835/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jpmorgan/.android/build-cache/86d56a47f932b1479a1e1b8259d3e748be036fb5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/pre-dexed/debug/classes_ac27777978501c729700d53eedd7fe07d67e90b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jpmorgan/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/pre-dexed/debug/commons-io-2.4_8550f7a07e429580cf3e04b4fa6ac2297eb105d0.jar" />
     </item>
 
 </items>

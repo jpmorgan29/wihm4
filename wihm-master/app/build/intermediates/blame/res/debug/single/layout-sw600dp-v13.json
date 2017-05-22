@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/robinanthonissen/.android/build-cache/687b3ea6dc25883d067b4c9bd4bbf4b1217ff97d/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
         "merged": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/jpmorgan/.android/build-cache/c33355df30323688d875cc6407c40d0a43dc2a3c/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }

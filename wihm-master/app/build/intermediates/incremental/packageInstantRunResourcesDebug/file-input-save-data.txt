@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 22 11:21:20 CEST 2017
+#Mon May 22 14:51:07 CEST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml

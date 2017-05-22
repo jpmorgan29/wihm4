@@ -87,6 +87,7 @@ public class FindUserActivity extends AppCompatActivity {
 
                 for (DataSnapshot amkSnapshot:dataSnapshot.getChildren()){
                     User user = amkSnapshot.getValue(User.class);
+                    // Manually add children to user
                     list_users.add(user);
 
                 }
