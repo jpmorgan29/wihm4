@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.example.jpmorgan.wihm_223"
-        minSdkVersion 15
+        minSdkVersion 18
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -28,6 +28,9 @@ dependencies {
     //lib
 
 
+    
+
+
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:25.0.0'
@@ -37,7 +40,6 @@ dependencies {
     compile 'commons-io:commons-io:2.4'
     compile 'com.google.code.gson:gson:1.7.2'
     compile 'com.jjoe64:graphview:4.2.1'
-
     testCompile 'junit:junit:4.12'
 }
 apply plugin: 'com.google.gms.google-services'

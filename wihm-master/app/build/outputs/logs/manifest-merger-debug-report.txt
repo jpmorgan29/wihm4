@@ -1,0 +1,288 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:8:22-71
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:10:5-12:36
+	android:required
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:12:9-33
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:11:9-53
+application
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:14:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robinanthonissen/.android/build-cache/bbf7a79c235b76760fc6d4bf80e8bcb89ec2d154/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.0.0] /Users/robinanthonissen/.android/build-cache/687b3ea6dc25883d067b4c9bd4bbf4b1217ff97d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/robinanthonissen/.android/build-cache/d23c0aed7b592808c0495657b74f92d15a71f4f1/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/robinanthonissen/.android/build-cache/6213d9cc4e9397adbb865d95c3e754763900fa00/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.0.0] /Users/robinanthonissen/.android/build-cache/80d7a6b98b429571ba73e7b11afa2f083ea568cd/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.test:runner:0.5] /Users/robinanthonissen/.android/build-cache/e6cf28817e35b372ed24aace121c8fbd6635ce5d/output/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] /Users/robinanthonissen/.android/build-cache/d6709c42b48b92d2cf886a49187e23d57cb1f578/output/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/robinanthonissen/.android/build-cache/86a27162e56a08209d15061c956cd45ed995af3f/output/AndroidManifest.xml:24:5-20
+MERGED from [com.felipecsl:gifimageview:2.1.0] /Users/robinanthonissen/.android/build-cache/7b335290c8854debeaaf0be910d05c6ed59b489a/output/AndroidManifest.xml:10:5-20
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/robinanthonissen/.android/build-cache/57209585cb4e8a4d0bb0d4cb2a900e9f2d2ed679/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/robinanthonissen/.android/build-cache/4e85bdac0dc551e889d037fbc0047df49e3e89b4/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/robinanthonissen/.android/build-cache/0f8584168569909e7cfdc83d66efd96428e8fee9/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/robinanthonissen/.android/build-cache/ee0ebc69ea49f024001ade4863afc040b863c6af/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.0.0] /Users/robinanthonissen/.android/build-cache/eb1390c4ad7978a74dafa0241bdf31784f683a40/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/robinanthonissen/.android/build-cache/da0fb10463d81dff35dd0807bedbccbdbc670b6d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/robinanthonissen/.android/build-cache/ba54b83ce50a72a1dd9f168bee4bc169ac71e920/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/robinanthonissen/.android/build-cache/df342a1ae210388a429a51aca544efbde0de9c4c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/robinanthonissen/.android/build-cache/356cfeb45aeb13675e3f0bcaa1fd7d5078470cf5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /Users/robinanthonissen/.android/build-cache/3636ede06c211d9fae01e9df3503bb23281df1e3/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:17:9-41
+	android:supportsRtl
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:19:9-35
+	android:roundIcon
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:18:9-54
+	android:allowBackup
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:16:9-43
+	android:theme
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:20:9-56
+activity#com.example.jpmorgan.wihm_223.LoadingscreenActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:21:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.example.jpmorgan.wihm_223.MainActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:28:19-47
+activity#com.example.jpmorgan.wihm_223.RegisterActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:29:9-54
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:29:19-51
+activity#com.example.jpmorgan.wihm_223.RetrieveActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:30:9-54
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:30:19-51
+activity#com.example.jpmorgan.wihm_223.MonitorActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:31:9-53
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:31:19-50
+activity#com.example.jpmorgan.wihm_223.FindUserActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:32:9-54
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:32:19-51
+activity#com.example.jpmorgan.wihm_223.ResultActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:33:9-52
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:33:19-49
+activity#com.example.jpmorgan.wihm_223.DetailUserActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:34:9-56
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:34:19-53
+service#com.example.jpmorgan.wihm_223.BluetoothLeService
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:36:9-38:38
+	android:enabled
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:38:13-35
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:37:13-47
+activity#com.example.jpmorgan.wihm_223.AddSensorActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:40:9-64
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:40:19-52
+uses-sdk
+INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robinanthonissen/.android/build-cache/bbf7a79c235b76760fc6d4bf80e8bcb89ec2d154/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.0.0] /Users/robinanthonissen/.android/build-cache/687b3ea6dc25883d067b4c9bd4bbf4b1217ff97d/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/robinanthonissen/.android/build-cache/d23c0aed7b592808c0495657b74f92d15a71f4f1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/robinanthonissen/.android/build-cache/6213d9cc4e9397adbb865d95c3e754763900fa00/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.0] /Users/robinanthonissen/.android/build-cache/ea1ea7b3087a7dcac87654eb6df6c1671a6d898c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.0] /Users/robinanthonissen/.android/build-cache/80d7a6b98b429571ba73e7b11afa2f083ea568cd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:9.6.1] /Users/robinanthonissen/.android/build-cache/ccde687dc32f4b2aba865ec1ee8ac4818d6d6b13/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.6.1] /Users/robinanthonissen/.android/build-cache/0995da28225b9d70485de46386c28bc4b9b61dcf/output/AndroidManifest.xml:3:5-42
+MERGED from [com.android.support.test.espresso:espresso-core:2.2.2] /Users/robinanthonissen/.android/build-cache/fe2dff32f5a2c0631e9bd6d21e91251ed448cf5d/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:rules:0.5] /Users/robinanthonissen/.android/build-cache/d180005f386ec00fd216450e005e3252cee5e0d4/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.test:runner:0.5] /Users/robinanthonissen/.android/build-cache/e6cf28817e35b372ed24aace121c8fbd6635ce5d/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] /Users/robinanthonissen/.android/build-cache/d6709c42b48b92d2cf886a49187e23d57cb1f578/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/robinanthonissen/.android/build-cache/86a27162e56a08209d15061c956cd45ed995af3f/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.felipecsl:gifimageview:2.1.0] /Users/robinanthonissen/.android/build-cache/7b335290c8854debeaaf0be910d05c6ed59b489a/output/AndroidManifest.xml:8:5-43
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/robinanthonissen/.android/build-cache/57209585cb4e8a4d0bb0d4cb2a900e9f2d2ed679/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/robinanthonissen/.android/build-cache/4e85bdac0dc551e889d037fbc0047df49e3e89b4/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/robinanthonissen/.android/build-cache/0f8584168569909e7cfdc83d66efd96428e8fee9/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/robinanthonissen/.android/build-cache/ee0ebc69ea49f024001ade4863afc040b863c6af/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.0.0] /Users/robinanthonissen/.android/build-cache/eb1390c4ad7978a74dafa0241bdf31784f683a40/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/robinanthonissen/.android/build-cache/da0fb10463d81dff35dd0807bedbccbdbc670b6d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/robinanthonissen/.android/build-cache/ba54b83ce50a72a1dd9f168bee4bc169ac71e920/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/robinanthonissen/.android/build-cache/df342a1ae210388a429a51aca544efbde0de9c4c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/robinanthonissen/.android/build-cache/356cfeb45aeb13675e3f0bcaa1fd7d5078470cf5/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.0] /Users/robinanthonissen/.android/build-cache/3636ede06c211d9fae01e9df3503bb23281df1e3/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] /Users/robinanthonissen/.android/build-cache/687b3ea6dc25883d067b4c9bd4bbf4b1217ff97d/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/robinanthonissen/.android/build-cache/a95c14129550d99f0544979b74ce65152099ec45/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/robinanthonissen/.android/build-cache/e58e95c20c2ed36001b1f7e13f9eca2f455e4ccd/output/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.1] /Users/robinanthonissen/.android/build-cache/c00ce57ea4778ab75f62586e8ea793daf472ac3e/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.6.1] /Users/robinanthonissen/.android/build-cache/0174bcc529e8b07088d7fc6f5e63d5facb611689/output/AndroidManifest.xml:6:79-124
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.6.1] /Users/robinanthonissen/.android/build-cache/ee0ebc69ea49f024001ade4863afc040b863c6af/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.6.1] /Users/robinanthonissen/.android/build-cache/ee0ebc69ea49f024001ade4863afc040b863c6af/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.6.1] /Users/robinanthonissen/.android/build-cache/ee0ebc69ea49f024001ade4863afc040b863c6af/output/AndroidManifest.xml:20:20-65

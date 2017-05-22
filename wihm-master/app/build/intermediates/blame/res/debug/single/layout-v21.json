@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

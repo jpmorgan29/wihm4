@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorSplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jpmorgan.wihm_223.ResultActivity">
+
+
+    <TextView
+        android:id="@+id/txtDisp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="156dp"
+        android:text="Heartrate"
+        android:textAlignment="center"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_bpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="89dp"
+        android:text="BPM:"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/txtDisp1"
+        android:layout_centerHorizontal="true" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="500dip"
+        android:layout_height="300dip"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:id="@+id/tv_selecteduser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER"
+        android:maxLines="1"
+        android:alpha=".3"
+        android:textAlignment="center"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtAvg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDisp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="AVERAGE" />
+
+</RelativeLayout>

@@ -2,7 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jpmorgan.wihm_223">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +31,13 @@
         <activity android:name=".MonitorActivity" />
         <activity android:name=".FindUserActivity" />
         <activity android:name=".ResultActivity" />
-        <activity android:name=".DetailUserActivity"></activity>
+        <activity android:name=".DetailUserActivity" />
+
+        <service
+            android:name=".BluetoothLeService"
+            android:enabled="true" />
+
+        <activity android:name=".AddSensorActivity"></activity>
     </application>
 
 </manifest>
