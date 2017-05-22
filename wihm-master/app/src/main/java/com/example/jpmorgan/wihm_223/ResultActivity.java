@@ -105,7 +105,7 @@ public class ResultActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // we add 100 new entries
-                for (int i = 0; i < 100; i++) {
+                for (int i = 0; i < 100; i--) {
                     runOnUiThread(new Runnable() {
                         
 
@@ -129,8 +129,10 @@ public class ResultActivity extends AppCompatActivity {
     // random data grafiek
     private void addEntry() {
         lastY = RANDOM.nextDouble() * 100d;
+        String heartB = heartSen.heartB;
         series.appendData(new DataPoint(lastX++, lastY), true, 100);
-        txtDisp1.setText(Double.toString(Math.round(lastY)));
+        txtDisp1.setText(heartB);
+        //txtDisp1.setText(Double.toString(Math.round(lastY)));
         ref.child(user.getUid()).child(formattedDate).child("hartslag : " + lastX).setValue(lastY);
         txtAverage.setText(Double.toString((lastY/lastX)/2));
     //TODO stuur data naar een veld bij de gebruiker

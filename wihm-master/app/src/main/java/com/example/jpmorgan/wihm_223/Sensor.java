@@ -34,7 +34,7 @@ public class Sensor {  //implements Parcelable {
     private BluetoothLeService mBluetoothLeService;
     private ArrayList<ArrayList<BluetoothGattCharacteristic>> mGattCharacteristics =
             new ArrayList<ArrayList<BluetoothGattCharacteristic>>();
-    private boolean mConnected = false;
+    public boolean mConnected = false;
     HashMap<String, String> HeartRateCharaData = new HashMap<String, String>();
     private BluetoothGattCharacteristic mNotifyCharacteristic;
 
