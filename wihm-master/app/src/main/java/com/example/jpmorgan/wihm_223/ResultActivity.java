@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -71,7 +72,7 @@ public class ResultActivity extends AppCompatActivity {
         Viewport viewport = graph.getViewport();
         viewport.setYAxisBoundsManual(true);
         viewport.setMinY(0);
-        viewport.setMaxY(100);
+        viewport.setMaxY(220);
         //viewport.setMaxX(200);
         viewport.setScalable(true);
         viewport.setScrollable(true);
@@ -128,12 +129,25 @@ public class ResultActivity extends AppCompatActivity {
 
     // random data grafiek
     private void addEntry() {
-        lastY = RANDOM.nextDouble() * 100d;
+        //lastY = RANDOM.nextDouble() * 100d;
         String heartB = heartSen.heartB;
+        lastY = 0;
+        int heartRate = 0;
+        try {
+            heartRate = Integer.parseInt(heartB);
+            lastY = heartRate;
+            Log.d("parsed int", String.valueOf(heartRate));
+        } catch(NumberFormatException nfe) {
+            System.out.println("Could not parse " + nfe);
+        }
+        //int hearRate = Integer.parseInt(heartB);
+        //Log.d("parsed int", String.valueOf(hearRate));
         series.appendData(new DataPoint(lastX++, lastY), true, 100);
         txtDisp1.setText(heartB);
         //txtDisp1.setText(Double.toString(Math.round(lastY)));
-        ref.child(user.getUid()).child(formattedDate).child("hartslag : " + lastX).setValue(lastY);
+        if (lastY>0){
+            ref.child(user.getUid()).child(formattedDate).child("hartslag : " + lastX).setValue(lastY);
+        }
         txtAverage.setText(Double.toString((lastY/lastX)/2));
     //TODO stuur data naar een veld bij de gebruiker
         //TODO Voeg een save button toe
