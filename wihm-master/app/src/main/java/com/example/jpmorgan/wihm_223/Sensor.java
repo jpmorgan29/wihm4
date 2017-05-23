@@ -74,7 +74,8 @@ public class Sensor {  //implements Parcelable {
 
             @Override
             public void onServiceDisconnected(ComponentName componentName) {
-                mBluetoothLeService = null;
+                //mBluetoothLeService = null;
+                mBluetoothLeService.connect(mDeviceAddress);
             }
         };
 
@@ -82,11 +83,14 @@ public class Sensor {  //implements Parcelable {
             @Override
             public void onReceive(Context context, Intent intent) {
                 final String action = intent.getAction();
+
                 if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
                     mConnected = true;
                     Log.d("Gatt Connected", String.valueOf(mConnected));
                 } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
                     mConnected = false;
+                    mBluetoothLeService.connect(mDeviceAddress);
+                    mConnected = true;
                 } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                     // Show all the supported services and characteristics on the user interface.
                     displayGattServices(mBluetoothLeService.getSupportedGattServices());
@@ -237,6 +241,11 @@ public class Sensor {  //implements Parcelable {
                 Log.d("NotifyChar", String.valueOf(mNotifyCharacteristic.getDescriptor(UUID_HEART_RATE_MEASUREMENT)));
             }
         }
+    }
+
+    public void Disconnect(){
+        mBluetoothLeService.disconnect();
+        mConnected = false;
     }
 
     private static IntentFilter makeGattUpdateIntentFilter() {

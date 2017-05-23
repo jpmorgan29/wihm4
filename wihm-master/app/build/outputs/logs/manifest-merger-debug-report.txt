@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml
@@ -36,7 +36,7 @@ ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-m
 	android:name
 		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:11:9-53
 application
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:14:5-43:19
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:14:5-44:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robinanthonissen/.android/build-cache/bbf7a79c235b76760fc6d4bf80e8bcb89ec2d154/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.0.0] /Users/robinanthonissen/.android/build-cache/687b3ea6dc25883d067b4c9bd4bbf4b1217ff97d/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/robinanthonissen/.android/build-cache/784e47f2d561fc2c253c85886e93fee219cf8910/output/AndroidManifest.xml:25:5-20
@@ -71,62 +71,64 @@ MERGED from [com.android.support:support-compat:25.0.0] /Users/robinanthonissen/
 		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:15:9-35
 	android:icon
 		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:16:9-43
+	android:largeHeap
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:20:9-33
 	android:theme
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:20:9-56
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:21:9-56
 activity#com.example.jpmorgan.wihm_223.LoadingscreenActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:21:9-27:20
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:21:19-56
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:22:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.example.jpmorgan.wihm_223.MainActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:28:9-50
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:29:9-50
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:28:19-47
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:29:19-47
 activity#com.example.jpmorgan.wihm_223.RegisterActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:29:9-54
-	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:29:19-51
-activity#com.example.jpmorgan.wihm_223.RetrieveActivity
 ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:30:9-54
 	android:name
 		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:30:19-51
+activity#com.example.jpmorgan.wihm_223.RetrieveActivity
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:31:9-54
+	android:name
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:31:19-51
 activity#com.example.jpmorgan.wihm_223.MonitorActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:31:9-53
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:32:9-53
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:31:19-50
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:32:19-50
 activity#com.example.jpmorgan.wihm_223.FindUserActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:32:9-54
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:33:9-54
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:32:19-51
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:33:19-51
 activity#com.example.jpmorgan.wihm_223.ResultActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:33:9-52
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:34:9-52
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:33:19-49
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:34:19-49
 activity#com.example.jpmorgan.wihm_223.DetailUserActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:34:9-56
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:35:9-56
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:34:19-53
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:35:19-53
 service#com.example.jpmorgan.wihm_223.BluetoothLeService
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:36:9-38:38
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:37:9-39:38
 	android:enabled
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:38:13-35
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:39:13-35
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:37:13-47
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:38:13-47
 activity#com.example.jpmorgan.wihm_223.AddSensorActivity
-ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:40:9-42:20
+ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:41:9-43:20
 	android:theme
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:41:13-56
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:40:19-52
+		ADDED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml:41:19-52
 uses-sdk
 INJECTED from /Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robinanthonissen/.android/build-cache/bbf7a79c235b76760fc6d4bf80e8bcb89ec2d154/output/AndroidManifest.xml:5:5-7:41

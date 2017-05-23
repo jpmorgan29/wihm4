@@ -86,7 +86,7 @@ public class ResultActivity extends AppCompatActivity {
         series.setDataPointsRadius(10);
         txtDisp1 = (TextView)findViewById(R.id.txtDisp1);
 
-        txtAverage = (TextView) findViewById(R.id.txtAvg);
+        //txtAverage = (TextView) findViewById(R.id.txtAvg);
         user = (User) getIntent().getSerializableExtra("user");
         newSenName = getIntent().getStringExtra("name");
         newSenAddress = getIntent().getStringExtra("address");
@@ -101,6 +101,7 @@ btnstop.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         isRunning = false;
+        heartSen.Disconnect();
     }
 });
 
@@ -165,7 +166,7 @@ btnstop.setOnClickListener(new View.OnClickListener() {
         if (lastY>0){
             ref.child(user.getUid()).child(formattedDate).child("hartslag : " + lastX).setValue(lastY);
         }
-        txtAverage.setText(Double.toString((lastY/lastX)/2));
+        //txtAverage.setText(Double.toString((lastY/lastX)/2));
     //TODO stuur data naar een veld bij de gebruiker
         //TODO Voeg een save button toe
 
