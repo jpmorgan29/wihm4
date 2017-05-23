@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

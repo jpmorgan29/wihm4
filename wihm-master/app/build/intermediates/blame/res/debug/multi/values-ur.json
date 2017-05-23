@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "/Users/robinanthonissen/Desktop/International Project Complete/wihm-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 257,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "/Users/robinanthonissen/.android/build-cache/ee0ebc69ea49f024001ade4863afc040b863c6af/output/res/values-ur/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 257,
+                        "endOffset": 596
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/jpmorgan/Desktop/22MAY/wihm-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
         "map": [
             {

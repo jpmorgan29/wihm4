@@ -6,8 +6,10 @@ import android.graphics.Color;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.ButtonBarLayout;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -31,6 +33,7 @@ public class ResultActivity extends AppCompatActivity {
     private DatabaseReference mFirebaseReference;
     private TextView allUsers;
     private TextView selectedUser;
+    private Button btnstop;
     Sensor heartSen;
     String newSenName;
     String newSenAddress;
@@ -41,6 +44,8 @@ public class ResultActivity extends AppCompatActivity {
     SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
     String formattedDate = df.format(c.getTime());
 
+
+    private boolean isRunning = true;
 
     private static final Random RANDOM = new Random();
 
@@ -62,7 +67,7 @@ public class ResultActivity extends AppCompatActivity {
         //ref.child(list_users.get(position).getUid()).child("sessions").child("time").setValue(null);
         //ref.child(user.getUid()).child("sessions").child(formattedDate).child("heartbeats").setValue(lastX);
 
-
+        btnstop = (Button) findViewById(R.id.btnstop);
         // we get graph view instance
         GraphView graph = (GraphView) findViewById(R.id.graph);
         // data
@@ -92,10 +97,20 @@ public class ResultActivity extends AppCompatActivity {
         selectedUser = (TextView) findViewById(R.id.tv_selecteduser);
         selectedUser.setText(user.getName());
 
-
+btnstop.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        isRunning = false;
+    }
+});
 
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        isRunning = false;
+    }
 
     @Override
     protected void onResume() {
@@ -106,8 +121,9 @@ public class ResultActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // we add 100 new entries
-                for (int i = 0; i < 100; i--) {
-                    runOnUiThread(new Runnable() {
+                if (isRunning ){
+                    for (int i = 0; i < 100; i--) {
+                        runOnUiThread(new Runnable() {
                         
 
                         @Override
@@ -116,11 +132,12 @@ public class ResultActivity extends AppCompatActivity {
                         }
                     });
 
-                    // sleep to slow down the add of entries
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        // manage error ...
+                        // sleep to slow down the add of entries
+                        try {
+                            Thread.sleep(1000);
+                        } catch (InterruptedException e) {
+                            // manage error ...
+                        }
                     }
                 }
             }
