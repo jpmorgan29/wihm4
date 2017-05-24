@@ -20,7 +20,11 @@
  ![N](https://scontent-bru2-1.xx.fbcdn.net/v/t35.0-12/18641772_10154382731206744_2119619095_o.jpg?oh=a9e42ac80df88fed4f945c8bee250665&oe=5927FEC7)
  ### 4. Once registered, select your name in the list
  ![N](https://scontent-bru2-1.xx.fbcdn.net/v/t35.0-12/18675227_10154385344991744_1250710490_o.png?oh=421102f2a91549c7320c767744d90cea&oe=5927D065)
- #### (Once selected, the application will ask for permission to turn on the bluetooth if bluetooth is not on yet)
+ #### 
+
+
+> **Note:** (Once selected, the application will ask for permission to turn on the bluetooth if bluetooth is not on yet)
+
 ![N](https://scontent-bru2-1.xx.fbcdn.net/v/t35.0-12/18697646_10154385344926744_1506581206_o.png?oh=32c0044f2c5c54bcbc047bc4cec26020&oe=5927FACB)
 
 ### 5. You will get a list of bluetooth devices and select your Fitrax device.
@@ -42,22 +46,16 @@
 - Firebase database
 - Fitrax wristband
 -- Arduino based application
--- 3V Battery
--- 32-bit system on chip with Bluetooth Low Energy
--- Ambient green light sensor
--- Opamp with passive components
-
-
-
+-- PCB 
 ---
-
 # How to create the Fitrax wristband:
 ### PCB-design of the wristband:
 
 ![N](https://scontent-bru2-1.xx.fbcdn.net/v/t34.0-12/18685367_10154385423451744_327884777_n.png?oh=fbf26dca7dc2d87598f5a0c948234c0c&oe=5927F140)
+> Go in the 'PCB' directory to find the sketches and design.
 
 ### Arduino code:
-> Go in the 'Arduino' directory to find the code behind the Fitrax hardware application.
+> Go in the 'Arduino' directory to find the code behind the Fitrax hardware application
 
 
 
