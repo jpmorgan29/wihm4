@@ -49,6 +49,18 @@
 -- PCB 
 ---
 # How to create the Fitrax wristband:
+
+### Components:
+-CR2032 button cell battery
+-NRF51822 32-bit SoC with BLE
+-APDS 9008 Ambient light sensor
+-Bright Green LED
+-8 Mbit SPI flash 
+-Op-amp
+-Resistors
+-Capasitors
+-SMD-LED RGB
+-Button
 ### PCB-design of the wristband:
 
 ![N](https://scontent-bru2-1.xx.fbcdn.net/v/t34.0-12/18685367_10154385423451744_327884777_n.png?oh=fbf26dca7dc2d87598f5a0c948234c0c&oe=5927F140)
